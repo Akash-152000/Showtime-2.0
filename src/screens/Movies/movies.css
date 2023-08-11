@@ -1,0 +1,50 @@
+/* .wrapper{
+    overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+.card{
+    height: auto;
+    width: 10rem;
+    background-color: #05161a;
+    border: none;
+    margin-right: 30px;
+}
+
+.card-img-top{
+    object-fit: contain;
+    max-height: 100%; 
+    cursor: pointer;
+} 
+
+.pagination{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.badge{
+    padding: 0;
+    display: none;
+}
+
+.card-conatiner{
+    display: flex;
+    
+} */
+
+
+@media only screen and (max-width: 600px) {
+
+    .card{
+        height: auto;
+        width: 11rem;
+        background-color: #05161a;
+        border: none;
+        margin-right: 30px;
+    }
+}

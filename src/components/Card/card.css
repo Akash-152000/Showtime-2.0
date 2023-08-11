@@ -1,0 +1,31 @@
+.card-img-top{
+    object-fit: contain;
+    max-height: 100%; 
+    cursor: pointer;
+}
+
+.card-body{
+    background: #0c364a;
+    /* padding: 0; */
+    cursor: pointer;
+    height: 5rem;
+}
+
+.heart{
+    color:#3eb7f5
+    /* transition: transform 0.3s ease-out; */
+}
+
+.heart:hover{
+    font-size: xx-large;
+    transform: scale(1.2);
+    /* transition: transform 0.5s; */
+}
+
+.card{
+    height: auto;
+    width: 13rem;
+    background-color: #05161a;
+    border: none;
+    margin-right: 30px;
+}
